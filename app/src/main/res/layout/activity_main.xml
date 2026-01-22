@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F4F6F8">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sudoku Solver"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#222"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp"/>
+
+    <!-- Sudoku Grid -->
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="9"
+        android:columnCount="9"
+        android:layout_gravity="center"
+        android:background="#000"
+        android:padding="2dp"/>
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/solveBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Solve"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFF"/>
+
+        <Button
+            android:id="@+id/clearBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:text="Clear"
+            android:backgroundTint="#F44336"
+            android:textColor="#FFF"/>
+    </LinearLayout>
+
+</LinearLayout>
