@@ -18,10 +18,10 @@ Automatically solves Sudoku puzzles using the *backtracking algorithm* with a cl
 ## Screenshots
 
 *Empty Grid:*  
-![Empty Sudoku Grid](![Empty_grid.jpeg](screenshots/Empty_grid.jpeg))
+![Empty Sudoku Grid](screenshots/Empty_grid.jpeg)
 
 *Solved Puzzle:*  
-![Solved Sudoku Puzzle](![solved_sudoku.jpeg](screenshots/solved_sudoku.jpeg))
+![Solved Sudoku Puzzle](screenshots/solved_sudoku.jpeg)
 
 
 
